@@ -1,0 +1,91 @@
+/* Reset CSS - Normalisation des styles */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Utilitaires généraux */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.container-wide {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.section {
+  padding: var(--spacing-3xl) 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,71 @@
+/* Responsive Design - Mobile First */
+
+/* Breakpoints */
+/* Mobile: < 768px (défaut) */
+/* Tablet: 768px - 1023px */
+/* Desktop: >= 1024px */
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-xl);
+  }
+  
+  .section {
+    padding: var(--spacing-3xl) 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 var(--spacing-2xl);
+  }
+  
+  .section {
+    padding: 80px 0;
+  }
+}
+
+/* Utilitaires responsive */
+.hidden-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hidden-mobile {
+    display: block;
+  }
+  
+  .hidden-tablet {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+/* Grid responsive */
+.grid {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

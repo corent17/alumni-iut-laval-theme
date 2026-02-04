@@ -1,0 +1,23 @@
+/* Alumni IUT Laval Theme - Main Stylesheet */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Utilities */
+@import url('utilities/variables.css');
+@import url('utilities/reset.css');
+@import url('utilities/responsive.css');
+
+/* Components */
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('components/buttons.css');
+@import url('components/cards.css');
+@import url('components/forms.css');
+@import url('components/hero.css');
+
+/* Pages */
+@import url('pages/home.css');
+@import url('pages/about.css');
+@import url('pages/blog.css');
+@import url('pages/article.css');
