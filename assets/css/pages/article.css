@@ -59,7 +59,8 @@
 .article__image {
   width: 100%;
   max-width: 1000px;
-  height: 500px;
+  max-height: 500px;
+  aspect-ratio: 2 / 1;
   object-fit: cover;
   margin: 0 auto var(--spacing-2xl);
   border-radius: var(--border-radius-lg);
