@@ -1,0 +1,108 @@
+/* Hero Section */
+.hero {
+  position: relative;
+  padding: var(--spacing-3xl) 0;
+  overflow: hidden;
+}
+
+.hero--primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-white);
+}
+
+.hero--light {
+  background-color: var(--color-gray-100);
+}
+
+.hero__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.hero__content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.2;
+}
+
+.hero__description {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-xl);
+  opacity: 0.95;
+}
+
+.hero__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.hero__cta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+.hero__carousel {
+  margin-top: var(--spacing-2xl);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.hero__carousel-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  background-color: var(--color-gray-200);
+}
+
+/* Page Banner Hero */
+.hero--banner {
+  padding: var(--spacing-2xl) 0;
+}
+
+.hero--banner .hero__title {
+  font-size: var(--font-size-4xl);
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 80px 0;
+  }
+  
+  .hero__title {
+    font-size: var(--font-size-4xl);
+  }
+  
+  .hero__cta {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .hero__container {
+    padding: 0 var(--spacing-xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 100px 0;
+  }
+  
+  .hero__container {
+    padding: 0 var(--spacing-2xl);
+  }
+}

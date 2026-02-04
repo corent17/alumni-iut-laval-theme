@@ -1,0 +1,107 @@
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-xl);
+  border-radius: var(--border-radius-md);
+  font-weight: 600;
+  font-size: var(--font-size-base);
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn--primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn--secondary {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn--secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: var(--color-gray-800);
+  border-color: var(--color-gray-800);
+}
+
+.btn--outline:hover {
+  background-color: var(--color-gray-800);
+  color: var(--color-white);
+}
+
+.btn--sm {
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--font-size-sm);
+}
+
+.btn--lg {
+  padding: var(--spacing-lg) var(--spacing-2xl);
+  font-size: var(--font-size-lg);
+}
+
+.btn--full {
+  width: 100%;
+}
+
+/* Badge Buttons - Departments */
+.badge {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badge--tc {
+  background-color: var(--color-tc);
+  color: var(--color-white);
+}
+
+.badge--mmi {
+  background-color: var(--color-mmi);
+  color: var(--color-white);
+}
+
+.badge--info {
+  background-color: var(--color-info);
+  color: var(--color-white);
+}
+
+.badge--gb {
+  background-color: var(--color-gb);
+  color: var(--color-white);
+}
+
+.badge--evenement {
+  background-color: var(--color-evenement);
+  color: var(--color-white);
+}
+
+.badge--carriere {
+  background-color: var(--color-carriere);
+  color: var(--color-white);
+}
+
+.badge--temoignage {
+  background-color: var(--color-temoignage);
+  color: var(--color-white);
+}
+
+.badge--formation {
+  background-color: var(--color-formation);
+  color: var(--color-white);
+}

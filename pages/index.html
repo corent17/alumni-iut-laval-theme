@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alumni IUT Laval - Réseau des anciens étudiants de l'IUT de Laval">
+  <title>Accueil - Alumni IUT Laval</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">Alumni IUT</a>
+      
+      <nav class="header__nav" aria-label="Navigation principale">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link header__nav-link--active">Accueil</a></li>
+          <li><a href="a-propos.html" class="header__nav-link">À propos</a></li>
+          <li><a href="actualites.html" class="header__nav-link">Actualités</a></li>
+          <li><a href="#services" class="header__nav-link">Services</a></li>
+        </ul>
+      </nav>
+      
+      <a href="#login" class="btn btn--primary header__cta">Se connecter</a>
+      
+      <button class="header__mobile-toggle" aria-label="Menu mobile" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+    
+    <div class="mobile-menu" role="navigation" aria-label="Menu mobile">
+      <ul class="mobile-menu__list">
+        <li><a href="index.html" class="mobile-menu__link">Accueil</a></li>
+        <li><a href="a-propos.html" class="mobile-menu__link">À propos</a></li>
+        <li><a href="actualites.html" class="mobile-menu__link">Actualités</a></li>
+        <li><a href="#services" class="mobile-menu__link">Services</a></li>
+        <li><a href="#login" class="mobile-menu__link">Se connecter</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero hero--primary">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">Alumni IUT Laval</h1>
+          <p class="hero__description">
+            Rejoignez le réseau des anciens étudiants de l'IUT de Laval. 
+            Plus de 2000 alumni connectés pour partager, échanger et évoluer ensemble.
+          </p>
+          <div class="hero__badges">
+            <span class="badge badge--tc">TC</span>
+            <span class="badge badge--mmi">MMI</span>
+            <span class="badge badge--info">INFO</span>
+            <span class="badge badge--gb">GB</span>
+          </div>
+          <div class="hero__cta">
+            <a href="#register" class="btn btn--secondary">Rejoindre le réseau</a>
+            <a href="a-propos.html" class="btn btn--outline" style="color: white; border-color: white;">En savoir plus</a>
+          </div>
+          <div class="hero__carousel">
+            <img src="https://via.placeholder.com/1200x400" alt="Campus IUT Laval" class="hero__carousel-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stats__item">
+            <div class="stats__number">2000+</div>
+            <div class="stats__label">Alumni actifs</div>
+          </div>
+          <div class="stats__item">
+            <div class="stats__number">50+</div>
+            <div class="stats__label">Entreprises partenaires</div>
+          </div>
+          <div class="stats__item">
+            <div class="stats__number">20+</div>
+            <div class="stats__label">Événements par an</div>
+          </div>
+          <div class="stats__item">
+            <div class="stats__number">24/7</div>
+            <div class="stats__label">Plateforme accessible</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news section">
+      <div class="container">
+        <div class="news__header">
+          <h2 class="news__title">Actualités</h2>
+          <p>Restez informés des dernières nouvelles du réseau</p>
+        </div>
+        <div class="news__grid">
+          <article class="card card--article">
+            <img src="https://via.placeholder.com/400x240" alt="Événement" class="card__image">
+            <div class="card__content">
+              <div class="card__header">
+                <span class="badge badge--evenement">ÉVÉNEMENT</span>
+                <span class="card__date">15 Mars 2024</span>
+              </div>
+              <h3 class="card__title">Soirée Networking Alumni 2024</h3>
+              <p class="card__description">
+                Rejoignez-nous pour une soirée exceptionnelle de networking et d'échanges entre anciens étudiants.
+              </p>
+              <div class="card__meta">
+                <span class="card__meta-item">👤 Marie Dubois</span>
+                <span class="card__meta-item">🕐 5 min</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card--article">
+            <img src="https://via.placeholder.com/400x240" alt="Carrière" class="card__image">
+            <div class="card__content">
+              <div class="card__header">
+                <span class="badge badge--carriere">CARRIÈRE</span>
+                <span class="card__date">12 Mars 2024</span>
+              </div>
+              <h3 class="card__title">Nouvelles opportunités d'emploi</h3>
+              <p class="card__description">
+                Découvrez les dernières offres d'emploi partagées par nos entreprises partenaires.
+              </p>
+              <div class="card__meta">
+                <span class="card__meta-item">👤 Thomas Dubois</span>
+                <span class="card__meta-item">🕐 3 min</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card--article">
+            <img src="https://via.placeholder.com/400x240" alt="Témoignage" class="card__image">
+            <div class="card__content">
+              <div class="card__header">
+                <span class="badge badge--temoignage">TÉMOIGNAGE</span>
+                <span class="card__date">10 Mars 2024</span>
+              </div>
+              <h3 class="card__title">Parcours inspirant d'un alumni</h3>
+              <p class="card__description">
+                Découvrez le témoignage de Sophie Martin, diplômée MMI 2015, aujourd'hui directrice d'agence.
+              </p>
+              <div class="card__meta">
+                <span class="card__meta-item">👤 Sophie Martin</span>
+                <span class="card__meta-item">🕐 7 min</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card--article">
+            <img src="https://via.placeholder.com/400x240" alt="Formation" class="card__image">
+            <div class="card__content">
+              <div class="card__header">
+                <span class="badge badge--formation">FORMATION</span>
+                <span class="card__date">8 Mars 2024</span>
+              </div>
+              <h3 class="card__title">Nouvelle formation continue</h3>
+              <p class="card__description">
+                L'IUT lance une nouvelle formation continue en collaboration avec le réseau Alumni.
+              </p>
+              <div class="card__meta">
+                <span class="card__meta-item">👤 Marie Lefevre</span>
+                <span class="card__meta-item">🕐 4 min</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container">
+        <div class="services__header">
+          <h2 class="services__title">Nos Services</h2>
+          <p>Des services pour accompagner votre parcours professionnel</p>
+        </div>
+        <div class="services__grid">
+          <article class="card card--service">
+            <div class="card__content">
+              <h3 class="card__title">Parrainage de promo</h3>
+              <p class="card__description">
+                Devenez parrain ou marraine d'une promotion et transmettez votre expérience aux nouveaux diplômés.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--service">
+            <div class="card__content">
+              <h3 class="card__title">Les offres pro</h3>
+              <p class="card__description">
+                Accédez à des offres d'emploi exclusives réservées aux membres du réseau Alumni.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--service">
+            <div class="card__content">
+              <h3 class="card__title">À venir</h3>
+              <p class="card__description">
+                De nouveaux services en cours de développement pour enrichir votre expérience alumni.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <div class="container">
+        <h2 class="newsletter__title">Rejoignez notre communauté email</h2>
+        <p class="newsletter__description">
+          Restez informé des dernières actualités, événements et opportunités du réseau Alumni IUT Laval.
+        </p>
+        <form class="newsletter-form" aria-label="Formulaire d'inscription à la newsletter">
+          <div class="newsletter-form__input-group">
+            <input 
+              type="email" 
+              class="newsletter-form__input" 
+              placeholder="Votre adresse email" 
+              required
+              aria-label="Adresse email"
+            >
+            <button type="submit" class="btn btn--secondary">S'inscrire</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__content">
+        <!-- Column 1 - About -->
+        <div class="footer__column">
+          <h3 class="footer__column-title">Alumni IUT</h3>
+          <p class="footer__description">
+            Le réseau des anciens étudiants de l'IUT de Laval. 
+            Connectez-vous, partagez et évoluez ensemble.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <span>f</span>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <span>𝕏</span>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">
+              <span>in</span>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <span>📷</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Column 2 - Quick Links -->
+        <div class="footer__column">
+          <h3 class="footer__column-title">Liens rapides</h3>
+          <nav class="footer__links">
+            <a href="index.html" class="footer__link">Accueil</a>
+            <a href="a-propos.html" class="footer__link">À propos</a>
+            <a href="actualites.html" class="footer__link">Actualités</a>
+            <a href="#services" class="footer__link">Services</a>
+            <a href="#contact" class="footer__link">Contact</a>
+          </nav>
+        </div>
+        
+        <!-- Column 3 - Departments -->
+        <div class="footer__column">
+          <h3 class="footer__column-title">Réseaux Départements</h3>
+          <nav class="footer__links">
+            <a href="#" class="footer__link">Techniques de Commercialisation (TC)</a>
+            <a href="#" class="footer__link">Métiers du Multimédia (MMI)</a>
+            <a href="#" class="footer__link">Informatique (INFO)</a>
+            <a href="#" class="footer__link">Génie Biologique (GB)</a>
+          </nav>
+        </div>
+        
+        <!-- Column 4 - Contact -->
+        <div class="footer__column">
+          <h3 class="footer__column-title">Contact</h3>
+          <nav class="footer__links">
+            <a href="mailto:contact@alumni-iut-laval.fr" class="footer__link">contact@alumni-iut-laval.fr</a>
+            <a href="tel:+33299999999" class="footer__link">+33 2 99 99 99 99</a>
+            <a href="#" class="footer__link">52 Rue des Docteurs Calmette et Guérin<br>53000 Laval</a>
+          </nav>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>&copy; 2026 Alumni IUT Laval. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/newsletter.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
